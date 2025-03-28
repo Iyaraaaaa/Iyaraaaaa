@@ -9,8 +9,7 @@
   
 - 💞️ I’m looking to collaborate on exciting software development projects, especially in e-commerce, mobile apps, and educational technology.
   
-- 📫 How to reach me: You can contact me via email at  [sithmiyara2001@gmail.com](mailto:sithmiyara2001@gmail.com)
-  [LinkedIn](https://www.linkedin.com/in/sithmi-iyara-0b5837265).
+- 📫 How to reach me: You can contact me via email at  [sithmiyara2001@gmail.com](mailto:sithmiyara2001@gmail.com),[LinkedIn](https://www.linkedin.com/in/sithmi-iyara-0b5837265).
 - 
 - 😄 Pronouns: She/Her
   
