@@ -7,6 +7,20 @@
   
 - 🌱 I’m currently learning advanced topics in machine learning, mobile app development, and deepening my knowledge in React and Python.
   
+- Lanuages
+  
+    Python: Advanced
+
+    Java: Intermediate
+
+    JavaScript: Intermediate
+
+    React: Intermediate
+
+    Node.js: Basic
+
+    SQL: Intermediate
+  
 - 💞️ I’m looking to collaborate on exciting software development projects, especially in e-commerce, mobile apps, and educational technology.
   
 - 📫 How to reach me: You can contact me via email at  [sithmiyara2001@gmail.com](mailto:sithmiyara2001@gmail.com)
