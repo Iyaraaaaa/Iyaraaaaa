@@ -1,3 +1,6 @@
+
+![welcome-to-my-profile-glitch](https://github.com/user-attachments/assets/0b41cda8-6700-48ff-b2c1-487aa43d16cf)
+
 - 👋 Hi, I’m Sithmi Iyara
   
 - 👀 I’m interested in software development, e-commerce platforms, and research on mental health impacts.
@@ -6,7 +9,8 @@
   
 - 💞️ I’m looking to collaborate on exciting software development projects, especially in e-commerce, mobile apps, and educational technology.
   
-- 📫 How to reach me: You can contact me via email at [sithmiyara2001@gmail.com](mailto:sithmiyara2001@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/sithmi-iyara-0b5837265).
+- 📫 How to reach me: You can contact me via email at  [sithmiyara2001@gmail.com](mailto:sithmiyara2001@gmail.com)
+                                                       [LinkedIn](https://www.linkedin.com/in/sithmi-iyara-0b5837265).
 - 
 - 😄 Pronouns: She/Her
   
