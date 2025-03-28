@@ -11,7 +11,7 @@
   
 - 📫 How to reach me: You can contact me via email at  [sithmiyara2001@gmail.com](mailto:sithmiyara2001@gmail.com)
 
-- [LinkedIn](https://www.linkedin.com/in/sithmi-iyara-0b5837265).
+- [LinkedIn] (https://www.linkedin.com/in/sithmiiyara0b5837265)
   
 - 😄 Pronouns: She/Her
   
