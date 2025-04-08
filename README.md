@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Sithmi Iyara</h1>
 <h3 align="center">A passionate Software developer from Sri Lanka.</h3>
 
-<img src="https://imgur.com/shX7MbR" alt="Developer at work" width="100%" />
+<img src="https://i.imgur.com/shX7MbR.gif" alt="Developer at work" width="50%" />
 
 
 - 🔭 I’m currently working on **Medicare**
