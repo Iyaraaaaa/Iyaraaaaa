@@ -2,7 +2,7 @@
 <h3 align="center">Full Stack Developer | Creative Coder | Pixel-Perfect Designer 💻🎨</h3>
 
 <p align="center">
-  <img src="https://github.com/Iyaraaaaa/Iyaraaaaa/raw/main/7587df77ef521cf98057d0028ee983f1.gif" width="700" height=700" />
+  <img src="https://github.com/Iyaraaaaa/Iyaraaaaa/raw/main/7587df77ef521cf98057d0028ee983f1.gif" width="700" height=500" />
 </p>
 
 
