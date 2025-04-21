@@ -1,61 +1,97 @@
-<h1 align="center">Hi 👋, I'm Sithmi Iyara</h1>
-<h3 align="center">💻 A passionate Software Developer from Sri Lanka</h3>
+<h1 align="center">✨ Sithmi Iyara ✨</h1>
+<h3 align="center">Full Stack Developer | Creative Coder | Pixel-Perfect Designer 💻🎨</h3>
 
 <p align="center">
-  <img src="https://i.imgur.com/shX7MbR.gif" alt="Developer at work" width="50%" />
+  <img src="https://github.com/Iyaraaaaa/Iyaraaaaa/raw/main/7587df77ef521cf98057d0028ee983f1.gif" width="1200" height=700" />
 </p>
 
----
 
-- 🔭 I’m currently working on: **Medicare**
-- 🌱 Learning: **React | MERN | Mobile App Development**
-- 🤝 Looking for help with: **Solid Driving School**
-- 👯 Collaborating on: **Evercare**
-- 👨‍💻 All my projects: [GitHub Portfolio](https://github.com/Iyaraaaaa)
-- 📫 Reach me at: **sithmi@gmail.com**
-- ⚡ Fun fact: *I turn coffee into code and ideas into apps! ☕💡*
+
+## 🔥 About Me
+
+I'm a passionate Full Stack Developer from Sri Lanka 🇱🇰 who loves transforming **creative ideas into functional code**. Whether it's building sleek interfaces, crafting robust APIs, or diving into new tools, I do it with heart, hustle, and curiosity.  
+
+💡 *“I don’t just code. I build experiences.”*
 
 ---
 
-<h3 align="left">🌐 Connect with me:</h3>
-<p align="left">
+## 💼 Resume & Contact
+
+📩 **Email:** [sithmiyara2001@gmail.com](mailto:sithmiyara2001@gmail.com)  
+📞 **Phone:** +94 784 770 935  
+📄 [https://github.com/Iyaraaaaa/CV/blob/main/Iyara_Mobile%20App%20Developer.pdf](#) <!-- Replace '#' with your real resume link -->
+
+---
+
+## 🌐 Connect With Me
+
+<p>
   <a href="https://www.linkedin.com/in/sithmi-iyara-0b5837265/" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" />
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://www.facebook.com/share/15zyop6zny/" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="Facebook" height="30" width="40" />
-  </a>
-  <a href="https://www.instagram.com/sithmi_iyara" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" height="30" width="40" />
+  <a href="https://www.facebook.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Facebook-%231877F2?style=for-the-badge&logo=facebook&logoColor=white" />
   </a>
   <a href="https://youtube.com/@iyara6822" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="YouTube" height="30" width="40" />
+    <img src="https://img.shields.io/badge/Youtube-%23FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
   </a>
 </p>
 
 ---
 
-<h3 align="left">🛠 Languages & Tools:</h3>
-<p align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="NodeJS" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" width="40" height="40"/>
-  <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="Flutter" width="40" height="40"/>
-  <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="Firebase" width="40" height="40"/>
-  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40" height="40"/>
-  <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="Dart" width="40" height="40"/>
-</p>
+## 🛠️ My Tech Toolbox
 
----
-
-<h3 align="left">☕ Support Me:</h3>
 <p>
-  <a href="https://www.buymeacoffee.com/Thanks">
-    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="Buy Me A Coffee" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=react,js,ts,nodejs,mongodb,express,tailwind,html,css,py,java,mysql,git,firebase,vscode" />
 </p>
+
+---
+
+## 🧩 Featured Projects
+
+| 🚀 Project        | 📝 Description                                       | 🔧 Tech Used            |
+|------------------|------------------------------------------------------|-------------------------|
+| `Medicare`       | Health management app for doctors & patients         | MERN, Firebase, Tailwind |
+| `Solid Driving School` | Booking system for driving schools               | React, MongoDB, Bootstrap |
+| `Evercare`       | Service scheduling & client care platform            | React, Express, MongoDB |
+
+> 🔗 *Demo Links Coming Soon!*  
+> 🌱 *More Projects on GitHub...*
+
+---
+
+## 📊 GitHub Insights
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Iyaraaaaa&show_icons=true&theme=tokyonight&count_private=true&hide=issues" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=Iyaraaaaa&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Iyaraaaaa&layout=compact&theme=tokyonight" />
+</p>
+
+---
+
+## 💬 Quote I Live By
+
+> *“First, solve the problem. Then, write the code.”* — John Johnson
+
+---
+
+## 🎯 Goal in 2025
+
+- ✈️ Land a remote job or internship in an international tech company  
+- 🧠 Become a senior in React and system design  
+- 🌐 Launch my personal portfolio and tech blog  
+- 💖 Help more girls in Sri Lanka get into tech
+
+---
+
+## ☕ Support Me
+
+If you like what I do, buy me a tea 🍵  
+<a href="https://www.buymeacoffee.com/Thanks" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="buy me a coffee" />
+</a>
+
+---
+
+> Built with ❤️ by Sithmi Iyara
