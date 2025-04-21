@@ -19,7 +19,8 @@ I'm a passionate Full Stack Developer from Sri Lanka 🇱🇰 who loves transfor
 
 📩 **Email:** [sithmiyara2001@gmail.com](mailto:sithmiyara2001@gmail.com)  
 📞 **Phone:** +94 784 770 935  
-📄 [https://github.com/Iyaraaaaa/CV/blob/main/Iyara_Mobile%20App%20Developer.pdf](#) <!-- Replace '#' with your real resume link -->
+📄 📄 [Download My CV](https://github.com/Iyaraaaaa/CV/raw/main/Iyara_Mobile%20App%20Developer.pdf)
+<!-- Replace '#' with your real resume link -->
 
 ---
 
