@@ -2,6 +2,11 @@
 <h3 align="center">Full Stack Developer | Creative Coder | Pixel-Perfect Designer 💻🎨</h3>
 
 <p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=FF6EC7&center=true&vCenter=true&width=500&lines=Hi+I'm+Sithmi+Iyara+from+Sri+Lanka!;Passionate+about+Code%2C+Creativity.;Turning+Ideas+into+Reality+%F0%9F%94%A5" alt="Typing Intro" />
+</p>
+
+
+<p align="center">
   <img src="https://github.com/Iyaraaaaa/Iyaraaaaa/raw/main/7587df77ef521cf98057d0028ee983f1.gif" width="700" height=500" />
 </p>
 
