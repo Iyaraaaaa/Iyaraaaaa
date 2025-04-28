@@ -1,3 +1,4 @@
+
 <h1 align="center">✨ Sithmi Iyara ✨</h1>
 <h3 align="center">Full Stack Developer | Creative Coder | Pixel-Perfect Designer 💻🎨</h3>
 
@@ -8,6 +9,14 @@
 
 <p align="center">
   <img src="https://github.com/Iyaraaaaa/Iyaraaaaa/raw/main/7587df77ef521cf98057d0028ee983f1.gif" width="700" height=500" />
+</p>
+
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=Iyaraa&label=Profile%20views&color=0e75b6&style=flat" alt="Iyaraaaaa" /> </p>
+
+<p align="left">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=Iyaraaaaa" alt="Iyaraaaaa" />
+  </a>
 </p>
 
 
