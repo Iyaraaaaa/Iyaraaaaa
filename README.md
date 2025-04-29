@@ -79,7 +79,6 @@ I'm a passionate Full Stack Developer from Sri Lanka 🇱🇰 who loves transfor
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Iyaraaaaa&show_icons=true&theme=tokyonight&count_private=true&hide=issues" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Iyaraaaaa&theme=tokyonight" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Iyaraaaaa&layout=compact&theme=tokyonight" />
 </p>
 
