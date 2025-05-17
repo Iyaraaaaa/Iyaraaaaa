@@ -61,6 +61,7 @@ I'm a passionate Full Stack Developer from Sri Lanka 🇱🇰 who loves transfor
   <img src="https://skillicons.dev/icons?i=react,js,ts,nodejs,mongodb,express,tailwind,html,css,py,java,mysql,git,firebase,vscode" />
 </p>
 
+
 ---
 
 ## 🧩 Featured Projects
