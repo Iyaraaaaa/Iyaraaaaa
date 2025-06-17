@@ -88,7 +88,7 @@ I'm a passionate Full Stack Developer from Sri Lanka 🇱🇰 who loves transfor
 
 ## 💬 Quote I Live By
 
-> *“First, solve the problem. Then, write the code.”* —  John Johnson
+> *“First, solve the problem. Then, write the code.”* —  John Johnson.
 
 ---
 
