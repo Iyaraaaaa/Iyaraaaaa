@@ -1,212 +1,113 @@
-# ✨ Sithmi Iyara Jayathilake ✨
 
-<div align="center">
-  
-  ![Typing Animation](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=FF6EC7&center=true&vCenter=true&multiline=true&width=800&height=100&lines=Hi+I'm+Sithmi+Iyara+from+Sri+Lanka!+🇱🇰;Full+Stack+Developer+%7C+Creative+Coder+%7C+Pixel-Perfect+Designer;Turning+Ideas+into+Digital+Reality+✨🚀)
-  
-  <img src="https://github.com/Iyaraaaaa/Iyaraaaaa/raw/main/7587df77ef521cf98057d0028ee983f1.gif" width="500" height="350" />
-  
-  [![Profile Views](https://komarev.com/ghpvc/?username=Iyaraaaaa&label=Profile%20Views&color=FF6EC7&style=for-the-badge)](https://github.com/Iyaraaaaa)
-  
-</div>
+<h1 align="center">✨ Sithmi Iyara ✨</h1>
+<h3 align="center">Full Stack Developer | Creative Coder | Pixel-Perfect Designer 💻🎨</h3>
 
----
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=FF6EC7&center=true&vCenter=true&width=500&lines=Hi+I'm+Sithmi+Iyara+from+Sri+Lanka!;Passionate+about+Code%2C+Creativity.;Turning+Ideas+into+Reality+%F0%9F%94%A5" alt="Typing Intro" />
+</p>
 
-## 🌟 About Me
 
-```javascript
-const sithmi = {
-    pronouns: "she/her",
-    location: "Sri Lanka 🇱🇰",
-    passion: "Building digital experiences that matter",
-    currentFocus: "Full Stack Development & UI/UX Design",
-    lifePhilosophy: "Code with purpose, design with heart ❤️",
-    
-    dailyRoutine: {
-        morning: "☕ Coffee + Code Review",
-        afternoon: "💻 Building & Creating",
-        evening: "📚 Learning new technologies",
-        night: "🎮 Gaming & Relaxing"
-    }
-};
-```
+<p align="center">
+  <img src="https://github.com/Iyaraaaaa/Iyaraaaaa/raw/main/7587df77ef521cf98057d0028ee983f1.gif" width="700" height=500" />
+</p>
 
-<div align="center">
-  
-  ### 🎯 *"I don't just code. I craft digital experiences that inspire."*
-  
-</div>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=Iyaraa&label=Profile%20views&color=0e75b6&style=flat" alt="Iyaraaaaa" /> </p>
+
+<p align="left">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=Iyaraaaaa&theme=juicyfresh" alt="Iyaraaaaa" />
+  </a>
+</p>
+
+
+
+
+## 🔥 About Me
+
+I'm a passionate Full Stack Developer from Sri Lanka 🇱🇰 who loves transforming **creative ideas into functional code**. Whether it's building sleek interfaces, crafting robust APIs, or diving into new tools, I do it with heart, hustle, and curiosity.  
+
+💡 *“I don’t just code. I build experiences.”*
 
 ---
 
-## 🏆 GitHub Trophies
+## 💼 Resume & Contact
 
-<div align="center">
-  
-  [![trophy](https://github-profile-trophy.vercel.app/?username=Iyaraaaaa&theme=radical&no-frame=true&no-bg=true&margin-w=4&row=2&column=4)](https://github.com/ryo-ma/github-profile-trophy)
-  
-</div>
-
----
-
-## 🛠️ Tech Arsenal
-
-<div align="center">
-
-### 🎨 Frontend Magic
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-### ⚡ Backend Power
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=firebase&logoColor=white)
-
-### 🔧 Tools & Languages
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-
-</div>
+📩 **Email:** [sithmiyara2001@gmail.com](mailto:sithmiyara2001@gmail.com)  
+📞 **Phone:** +94 784 770 935  
+📄 📄 [Download My CV](https://github.com/Iyaraaaaa/CV/raw/main/Iyara_Mobile%20App%20Developer.pdf)
+<!-- Replace '#' with your real resume link -->
 
 ---
 
-## 🚀 Featured Projects
+## 🌐 Connect With Me
 
-<div align="center">
-
-| 🎯 Project | 📄 Description | 🛠️ Tech Stack | 🔗 Links |
-|------------|-----------------|----------------|----------|
-| **🏥 Medicare** | Complete healthcare management platform for doctors and patients | MERN Stack, Firebase, Tailwind CSS | [Demo](https://github.com/Iyaraaaaa) \| [Code](https://github.com/Iyaraaaaa) |
-| **🚗 Solid Driving School** | Modern booking and management system for driving schools | React, MongoDB, Bootstrap | [Demo](https://github.com/Iyaraaaaa) \| [Code](https://github.com/Iyaraaaaa) |
-| **💼 Evercare** | Professional service scheduling and client management platform | React, Express.js, MongoDB | [Demo](https://github.com/Iyaraaaaa) \| [Code](https://github.com/Iyaraaaaa) |
-
-</div>
-
----
-
-## 📊 GitHub Analytics
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Iyaraaaaa&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Iyaraaaaa&layout=compact&theme=radical&hide_border=true"/>
-
-</div>
-
-<div align="center">
-  
-  ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Iyaraaaaa&theme=radical&hide_border=true)
-  
-</div>
+<p>
+  <a href="https://www.linkedin.com/in/sithmi-iyara-0b5837265/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://www.facebook.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Facebook-%231877F2?style=for-the-badge&logo=facebook&logoColor=white" />
+  </a>
+  <a href="https://youtube.com/@iyara6822" target="_blank">
+    <img src="https://img.shields.io/badge/Youtube-%23FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
+  </a>
+</p>
 
 ---
 
-## 🎮 Quick Game: Guess My Favorite Tech!
+## 🛠️ My Tech Toolbox
 
-<div align="center">
+<p>
+  <img src="https://skillicons.dev/icons?i=react,js,ts,nodejs,mongodb,express,tailwind,html,css,py,java,mysql,git,firebase,vscode" />
+</p>
 
-```
-🎯 Mini Challenge: Can you guess my favorite programming language?
-
-A) Python 🐍    B) JavaScript 💛    C) Java ☕    D) TypeScript 💙
-
-Hint: It makes the web interactive and fun! ✨
-
-Answer: Hover over this text → JavaScript is my go-to for creating magic! 🪄
-```
-
-</div>
 
 ---
 
-## 🌐 Let's Connect
+## 🧩 Featured Projects
 
-<div align="center">
+| 🚀 Project        | 📝 Description                                       | 🔧 Tech Used            |
+|------------------|------------------------------------------------------|-------------------------|
+| `Medicare`       | Health management app for doctors & patients         | MERN, Firebase, Tailwind |
+| `Solid Driving School` | Booking system for driving schools               | React, MongoDB, Bootstrap |
+| `Evercare`       | Service scheduling & client care platform            | React, Express, MongoDB |
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sithmi-iyara-0b5837265/)
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@iyara6822)
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sithmiyara2001@gmail.com)
-
-**📱 Phone:** +94 784 770 935  
-**📄 Resume:** [Download My CV](https://github.com/Iyaraaaaa/CV/raw/main/Iyara_Mobile%20App%20Developer.pdf)
-
-</div>
+> 🔗 *Demo Links Coming Soon!*  
+> 🌱 *More Projects on GitHub...*
 
 ---
 
-## 💭 Quote That Drives Me
+## 📊 GitHub Insights
 
-<div align="center">
-
-> ### *"First, solve the problem. Then, write the code."*  
-> **— John Johnson**
-
-</div>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Iyaraaaaa&show_icons=true&theme=tokyonight&count_private=true&hide=issues" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Iyaraaaaa&layout=compact&theme=tokyonight" />
+</p>
 
 ---
 
-## 🎯 Goals for 2025
+## 💬 Quote I Live By
 
-- [ ] 🌍 Land a remote position with an international tech company
-- [ ] 📱 Master advanced React patterns and system design
-- [ ] 🌟 Launch my personal portfolio website and tech blog
-- [ ] 👩‍💻 Mentor more women in Sri Lanka to join the tech industry
-- [ ] 🚀 Contribute to 5 open-source projects
-- [ ] 📚 Complete AWS certification
+> *“First, solve the problem. Then, write the code.”* —  John Johnson.
 
 ---
 
-## 💝 Support My Journey
+## 🎯 Goal in 2025
 
-<div align="center">
-
-If you enjoy my work and want to support my coding journey with a virtual tea 🍵
-
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/Thanks)
-
-</div>
+- ✈️ Land a remote job or internship in an international tech company  
+- 🧠 Become a senior in React and system design  
+- 🌐 Launch my personal portfolio and tech blog  
+- 💖 Help more girls in Sri Lanka get into tech
 
 ---
 
-## 🎊 Fun Facts About Me
+## ☕ Support Me
 
-<div align="center">
-
-```
-🎨 I design my own VS Code themes
-🌱 Currently growing a small herb garden
-🎵 I code better with lo-fi music
-🍕 Pizza is my debugging fuel
-🌙 Night owl developer (my best code happens after 10 PM!)
-🎭 I believe every website should tell a story
-```
-
-</div>
+If you like what I do, buy me a tea 🍵  
+<a href="https://www.buymeacoffee.com/Thanks" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="buy me a coffee" />
+</a>
 
 ---
 
-<div align="center">
-
-### 🌈 *"Building the web, one commit at a time"* 
-
-**✨ Made with lots of ❤️, ☕, and countless hours of coding by Sithmi Iyara ✨**
-
-![Wave](https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg)
-
-</div>
-
----
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=FF6EC7&height=100&section=footer"/>
-</div>
+> Built with ❤️ by Sithmi Iyara
