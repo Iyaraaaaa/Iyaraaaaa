@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elegant 3D Background</title>
+    <title>✨ Sithmi Iyara - Portfolio</title>
     <style>
         * {
             margin: 0;
@@ -12,9 +12,10 @@
         }
 
         body {
-            overflow: hidden;
+            overflow-x: hidden;
             background: linear-gradient(135deg, #0c0c0c 0%, #1a1a2e 50%, #16213e 100%);
-            font-family: 'Arial', sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #ffffff;
         }
 
         #canvas {
@@ -23,45 +24,205 @@
             left: 0;
             width: 100vw;
             height: 100vh;
-            z-index: -1;
+            z-index: 1;
         }
 
-        .overlay-content {
+        .content {
             position: relative;
             z-index: 10;
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .hero {
+            height: 100vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-            color: #ffffff;
             text-align: center;
-            pointer-events: none;
         }
 
-        .title {
-            font-size: 3rem;
+        .hero h1 {
+            font-size: 4rem;
             font-weight: bold;
             margin-bottom: 1rem;
-            background: linear-gradient(45deg, #00d4ff, #0099cc, #7b68ee);
+            background: linear-gradient(45deg, #00d4ff, #7b68ee, #ff6ec7);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
             text-shadow: 0 0 30px rgba(0, 212, 255, 0.3);
+            animation: glow 2s ease-in-out infinite alternate;
         }
 
-        .subtitle {
-            font-size: 1.2rem;
+        .hero .subtitle {
+            font-size: 1.5rem;
             color: #a0a0a0;
             margin-bottom: 2rem;
         }
 
-        .floating-elements {
+        .hero .typing {
+            font-size: 1.2rem;
+            color: #00d4ff;
+            font-family: 'Courier New', monospace;
+        }
+
+        @keyframes glow {
+            from { text-shadow: 0 0 30px rgba(0, 212, 255, 0.3); }
+            to { text-shadow: 0 0 40px rgba(0, 212, 255, 0.6), 0 0 60px rgba(123, 104, 238, 0.4); }
+        }
+
+        .section {
+            margin: 4rem 0;
+            padding: 3rem 2rem;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(20px);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+
+        .section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            text-align: center;
+            background: linear-gradient(45deg, #00d4ff, #7b68ee);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .about {
+            display: grid;
+            grid-template-columns: 1fr 300px;
+            gap: 3rem;
+            align-items: center;
+        }
+
+        .about-text {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: #e0e0e0;
+        }
+
+        .about-image {
+            text-align: center;
+        }
+
+        .about-image img {
+            width: 100%;
+            border-radius: 15px;
+            border: 2px solid rgba(0, 212, 255, 0.3);
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .skill-category {
+            background: rgba(0, 212, 255, 0.1);
+            padding: 2rem;
+            border-radius: 15px;
+            border: 1px solid rgba(0, 212, 255, 0.2);
+        }
+
+        .skill-category h3 {
+            color: #00d4ff;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .skill-tag {
+            background: rgba(123, 104, 238, 0.3);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            border: 1px solid rgba(123, 104, 238, 0.4);
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .project-card {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 2rem;
+            border-radius: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .project-card::before {
+            content: '';
             position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(45deg, #00d4ff, #7b68ee, #ff6ec7);
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 212, 255, 0.2);
+        }
+
+        .project-card h3 {
+            color: #00d4ff;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .contact-link {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: linear-gradient(45deg, #00d4ff, #7b68ee);
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            transition: all 0.3s ease;
+            font-weight: bold;
+        }
+
+        .contact-link:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 212, 255, 0.3);
+        }
+
+        .floating-elements {
+            position: fixed;
             width: 100%;
             height: 100%;
             overflow: hidden;
-            z-index: 1;
+            z-index: 2;
+            pointer-events: none;
         }
 
         .floating-element {
@@ -102,29 +263,12 @@
             50% { transform: translateY(-20px) rotate(180deg); }
         }
 
-        .particle {
-            position: absolute;
-            background: radial-gradient(circle, rgba(0, 212, 255, 0.8), transparent);
-            border-radius: 50%;
-            pointer-events: none;
-            animation: particle-float 4s linear infinite;
-        }
-
-        @keyframes particle-float {
-            0% {
-                transform: translateY(100vh) scale(0);
-                opacity: 0;
-            }
-            10% {
-                opacity: 1;
-            }
-            90% {
-                opacity: 1;
-            }
-            100% {
-                transform: translateY(-100px) scale(1);
-                opacity: 0;
-            }
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.5rem; }
+            .about { grid-template-columns: 1fr; text-align: center; }
+            .content { padding: 1rem; }
+            .section { margin: 2rem 0; padding: 2rem 1rem; }
+            .contact-links { flex-direction: column; align-items: center; }
         }
     </style>
 </head>
@@ -137,14 +281,135 @@
         <div class="floating-element"></div>
     </div>
 
-    <div class="overlay-content">
-        <h1 class="title">Elegant 3D Experience</h1>
-        <p class="subtitle">Move your mouse to interact with the background</p>
+    <div class="content">
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>✨ Sithmi Iyara ✨</h1>
+            <div class="subtitle">Full Stack Developer | Creative Coder | Pixel-Perfect Designer 💻🎨</div>
+            <div class="typing">Hi I'm Sithmi Iyara from Sri Lanka!</div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section">
+            <h2>🔥 About Me</h2>
+            <div class="about">
+                <div class="about-text">
+                    <p>I'm a passionate <strong>Full Stack Developer</strong> from Sri Lanka 🇱🇰 who loves transforming <strong>creative ideas into functional code</strong>. Whether it's building sleek interfaces, crafting robust APIs, or diving into new tools, I do it with heart, hustle, and curiosity.</p>
+                    <br>
+                    <p>💡 <em>"I don't just code. I build experiences."</em></p>
+                    <br>
+                    <p>🎨 <strong>Currently exploring:</strong> 3D web experiences, interactive animations, and immersive user interfaces</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://github.com/Iyaraaaaa/Iyaraaaaa/raw/main/7587df77ef521cf98057d0028ee983f1.gif" alt="Coding Animation" />
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section">
+            <h2>🛠️ My Tech Toolbox</h2>
+            <div class="skills">
+                <div class="skill-category">
+                    <h3>🎨 Frontend Magic</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">Tailwind</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>⚡ Backend Power</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express.js</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Java</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>🗄️ Database & Cloud</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">Firebase</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>🎮 3D & Creative</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Three.js</span>
+                        <span class="skill-tag">WebGL</span>
+                        <span class="skill-tag">CSS Animations</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section">
+            <h2>🧩 Featured Projects</h2>
+            <div class="projects">
+                <div class="project-card">
+                    <h3>🏥 Medicare</h3>
+                    <p><strong>Health management app for doctors & patients</strong></p>
+                    <p>🔧 <strong>Tech Used:</strong> MERN, Firebase, Tailwind</p>
+                    <p>✨ Patient management, appointment scheduling, medical records with clean UI/UX</p>
+                </div>
+                <div class="project-card">
+                    <h3>🚗 Solid Driving School</h3>
+                    <p><strong>Booking system for driving schools</strong></p>
+                    <p>🔧 <strong>Tech Used:</strong> React, MongoDB, Bootstrap</p>
+                    <p>✨ Online booking, instructor management, progress tracking</p>
+                </div>
+                <div class="project-card">
+                    <h3>💼 Evercare</h3>
+                    <p><strong>Service scheduling & client care platform</strong></p>
+                    <p>🔧 <strong>Tech Used:</strong> React, Express, MongoDB</p>
+                    <p>✨ Service booking, client management, real-time notifications</p>
+                </div>
+                <div class="project-card">
+                    <h3>🌟 Interactive 3D Background</h3>
+                    <p><strong>Elegant 3D web experiences</strong></p>
+                    <p>🔧 <strong>Tech Used:</strong> Three.js, WebGL, CSS3</p>
+                    <p>✨ Particle systems, mouse interactions, immersive animations</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Goals Section -->
+        <section class="section">
+            <h2>🎯 2025 Goals</h2>
+            <div class="about-text">
+                <p>✈️ <strong>International Opportunities:</strong> Land a remote job or internship in an international tech company</p>
+                <p>🧠 <strong>Senior Developer:</strong> Become a senior in React and system design</p>
+                <p>🌐 <strong>Personal Brand:</strong> Launch my personal portfolio and tech blog</p>
+                <p>💖 <strong>Community Impact:</strong> Help more girls in Sri Lanka get into tech</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact">
+            <h2>🌐 Connect With Me</h2>
+            <p>📩 <strong>Email:</strong> sithmiyara2001@gmail.com</p>
+            <p>📞 <strong>Phone:</strong> +94 784 770 935</p>
+            <div class="contact-links">
+                <a href="https://www.linkedin.com/in/sithmi-iyara-0b5837265/" class="contact-link" target="_blank">LinkedIn</a>
+                <a href="https://youtube.com/@iyara6822" class="contact-link" target="_blank">YouTube</a>
+                <a href="https://github.com/Iyaraaaaa/CV/raw/main/Iyara_Mobile%20App%20Developer.pdf" class="contact-link" target="_blank">Download CV</a>
+                <a href="mailto:sithmiyara2001@gmail.com" class="contact-link">Email Me</a>
+            </div>
+            <br>
+            <p><em>"First, solve the problem. Then, write the code." — John Johnson</em></p>
+        </section>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script>
-        // Three.js scene setup
+        // Three.js scene setup (same as your background.html)
         const scene = new THREE.Scene();
         const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
         const renderer = new THREE.WebGLRenderer({ 
@@ -167,7 +432,6 @@
             posArray[i + 1] = (Math.random() - 0.5) * 20;
             posArray[i + 2] = (Math.random() - 0.5) * 20;
 
-            // Elegant color palette - blues, purples, teals
             const colors = [
                 [0, 0.8, 1],      // Cyan
                 [0.3, 0.4, 0.9],  // Blue
@@ -250,27 +514,6 @@
             mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
         });
 
-        // Create floating particles on mouse move
-        document.addEventListener('mousemove', (e) => {
-            if (Math.random() > 0.8) {
-                createFloatingParticle(e.clientX, e.clientY);
-            }
-        });
-
-        function createFloatingParticle(x, y) {
-            const particle = document.createElement('div');
-            particle.className = 'particle';
-            particle.style.left = x + 'px';
-            particle.style.top = y + 'px';
-            particle.style.width = Math.random() * 8 + 4 + 'px';
-            particle.style.height = particle.style.width;
-            document.body.appendChild(particle);
-
-            setTimeout(() => {
-                particle.remove();
-            }, 4000);
-        }
-
         // Animation loop
         function animate() {
             requestAnimationFrame(animate);
@@ -314,15 +557,13 @@
 
         animate();
 
-        // Add some interactive clicking effects
-        document.addEventListener('click', (e) => {
-            for(let i = 0; i < 5; i++) {
-                setTimeout(() => {
-                    createFloatingParticle(
-                        e.clientX + (Math.random() - 0.5) * 100,
-                        e.clientY + (Math.random() - 0.5) * 100
-                    );
-                }, i * 100);
+        // Smooth scrolling for navigation
+        document.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const rate = scrolled * -0.5;
+            
+            if (particlesMesh) {
+                particlesMesh.rotation.z = rate * 0.001;
             }
         });
     </script>
