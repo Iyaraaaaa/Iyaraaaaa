@@ -1,55 +1,93 @@
-# Hello, I'm [Your Name] 👋
+# ✨ Sithmi Iyara Jayathilake ✨
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2F81F7&center=true&vCenter=true&width=435&lines=Software+Engineer;Full+Stack+Developer;Open+Source+Contributor;Tech+Enthusiast" alt="Typing SVG" />
+  
+  ![Typing Animation](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=FF6EC7&center=true&vCenter=true&multiline=true&width=800&height=100&lines=Hi+I'm+Sithmi+Iyara+from+Sri+Lanka!+🇱🇰;Full+Stack+Developer+%7C+Creative+Coder+%7C+Pixel-Perfect+Designer;Turning+Ideas+into+Digital+Reality+✨🚀)
+  
+  <img src="https://github.com/Iyaraaaaa/Iyaraaaaa/raw/main/7587df77ef521cf98057d0028ee983f1.gif" width="500" height="350" />
+  
+  [![Profile Views](https://komarev.com/ghpvc/?username=Iyaraaaaa&label=Profile%20Views&color=FF6EC7&style=for-the-badge)](https://github.com/Iyaraaaaa)
+  
 </div>
 
 ---
 
 ## 🌟 About Me
 
-I'm a passionate developer who loves creating innovative solutions and contributing to the open-source community. With a keen eye for detail and a drive for excellence, I transform ideas into reality through clean, efficient code.
+```javascript
+const sithmi = {
+    pronouns: "she/her",
+    location: "Sri Lanka 🇱🇰",
+    passion: "Building digital experiences that matter",
+    currentFocus: "Full Stack Development & UI/UX Design",
+    lifePhilosophy: "Code with purpose, design with heart ❤️",
+    
+    dailyRoutine: {
+        morning: "☕ Coffee + Code Review",
+        afternoon: "💻 Building & Creating",
+        evening: "📚 Learning new technologies",
+        night: "🎮 Gaming & Relaxing"
+    }
+};
+```
 
-- 🔭 Currently working on **[Your Current Project]**
-- 🌱 Learning **[Technologies you're learning]**
-- 👯 Looking to collaborate on **open source projects**
-- 💬 Ask me about **JavaScript, Python, React, Node.js**
-- 📫 Reach me at **[your.email@example.com]**
-- ⚡ Fun fact: **[Something interesting about you]**
+<div align="center">
+  
+  ### 🎯 *"I don't just code. I craft digital experiences that inspire."*
+  
+</div>
 
 ---
 
-## 🛠️ Tech Stack
+## 🏆 GitHub Trophies
+
+<div align="center">
+  
+  [![trophy](https://github-profile-trophy.vercel.app/?username=Iyaraaaaa&theme=radical&no-frame=true&no-bg=true&margin-w=4&row=2&column=4)](https://github.com/ryo-ma/github-profile-trophy)
+  
+</div>
+
+---
+
+## 🛠️ Tech Arsenal
 
 <div align="center">
 
-### Languages
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+### 🎨 Frontend Magic
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-### Frontend
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
-![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+### ⚡ Backend Power
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=firebase&logoColor=white)
 
-### Backend
-![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+### 🔧 Tools & Languages
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-### Database
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+</div>
 
-### Cloud & DevOps
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
+---
+
+## 🚀 Featured Projects
+
+<div align="center">
+
+| 🎯 Project | 📄 Description | 🛠️ Tech Stack | 🔗 Links |
+|------------|-----------------|----------------|----------|
+| **🏥 Medicare** | Complete healthcare management platform for doctors and patients | MERN Stack, Firebase, Tailwind CSS | [Demo](https://github.com/Iyaraaaaa) \| [Code](https://github.com/Iyaraaaaa) |
+| **🚗 Solid Driving School** | Modern booking and management system for driving schools | React, MongoDB, Bootstrap | [Demo](https://github.com/Iyaraaaaa) \| [Code](https://github.com/Iyaraaaaa) |
+| **💼 Evercare** | Professional service scheduling and client management platform | React, Express.js, MongoDB | [Demo](https://github.com/Iyaraaaaa) \| [Code](https://github.com/Iyaraaaaa) |
 
 </div>
 
@@ -58,92 +96,117 @@ I'm a passionate developer who loves creating innovative solutions and contribut
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=[YOUR_USERNAME]&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=[YOUR_USERNAME]&layout=compact&langs_count=8&theme=tokyonight"/>
-</div>
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=[YOUR_USERNAME]&theme=tokyonight" alt="GitHub Streak"/>
-</div>
-
----
-
-## 🏆 Featured Projects
-
-<div align="center">
-
-[![Project 1](https://github-readme-stats.vercel.app/api/pin/?username=[YOUR_USERNAME]&repo=[REPO_NAME]&theme=tokyonight)](https://github.com/[YOUR_USERNAME]/[REPO_NAME])
-[![Project 2](https://github-readme-stats.vercel.app/api/pin/?username=[YOUR_USERNAME]&repo=[REPO_NAME]&theme=tokyonight)](https://github.com/[YOUR_USERNAME]/[REPO_NAME])
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Iyaraaaaa&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Iyaraaaaa&layout=compact&theme=radical&hide_border=true"/>
 
 </div>
-
-### 🌟 Highlighted Work
-
-- **[Project Name 1](https://github.com/your-username/project1)** - Brief description of what this project does and technologies used
-- **[Project Name 2](https://github.com/your-username/project2)** - Brief description of what this project does and technologies used
-- **[Project Name 3](https://github.com/your-username/project3)** - Brief description of what this project does and technologies used
-
----
-
-## 🎯 Current Goals
-
-- 📚 Deepen expertise in **cloud architecture** and **microservices**
-- 🔄 Contribute more to **open source projects**
-- 📝 Share knowledge through **technical blogging**
-- 🤝 Mentor aspiring developers in the community
-
----
-
-## 📈 Contribution Graph
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=[YOUR_USERNAME]&theme=tokyo-night&area=true&hide_border=true" width="100%"/>
-</div>
-
----
-
-## 🌐 Connect With Me
 
 <div align="center">
   
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/[YOUR_LINKEDIN])
-[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/[YOUR_TWITTER])
-[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139)](https://[YOUR_WEBSITE])
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:[YOUR_EMAIL])
-
-</div>
-
----
-
-## 💭 Quote
-
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
-</div>
-
----
-
-## 🎵 Currently Playing
-
-<div align="center">
+  ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Iyaraaaaa&theme=radical&hide_border=true)
   
-[![Spotify](https://github-readme-stats.vercel.app/api/pin/?username=kittinan&repo=spotify-github-profile&theme=tokyonight)](https://open.spotify.com/user/[YOUR_SPOTIFY_ID])
+</div>
+
+---
+
+## 🎮 Quick Game: Guess My Favorite Tech!
+
+<div align="center">
+
+```
+🎯 Mini Challenge: Can you guess my favorite programming language?
+
+A) Python 🐍    B) JavaScript 💛    C) Java ☕    D) TypeScript 💙
+
+Hint: It makes the web interactive and fun! ✨
+
+Answer: Hover over this text → JavaScript is my go-to for creating magic! 🪄
+```
+
+</div>
+
+---
+
+## 🌐 Let's Connect
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sithmi-iyara-0b5837265/)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@iyara6822)
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sithmiyara2001@gmail.com)
+
+**📱 Phone:** +94 784 770 935  
+**📄 Resume:** [Download My CV](https://github.com/Iyaraaaaa/CV/raw/main/Iyara_Mobile%20App%20Developer.pdf)
+
+</div>
+
+---
+
+## 💭 Quote That Drives Me
+
+<div align="center">
+
+> ### *"First, solve the problem. Then, write the code."*  
+> **— John Johnson**
+
+</div>
+
+---
+
+## 🎯 Goals for 2025
+
+- [ ] 🌍 Land a remote position with an international tech company
+- [ ] 📱 Master advanced React patterns and system design
+- [ ] 🌟 Launch my personal portfolio website and tech blog
+- [ ] 👩‍💻 Mentor more women in Sri Lanka to join the tech industry
+- [ ] 🚀 Contribute to 5 open-source projects
+- [ ] 📚 Complete AWS certification
+
+---
+
+## 💝 Support My Journey
+
+<div align="center">
+
+If you enjoy my work and want to support my coding journey with a virtual tea 🍵
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/Thanks)
+
+</div>
+
+---
+
+## 🎊 Fun Facts About Me
+
+<div align="center">
+
+```
+🎨 I design my own VS Code themes
+🌱 Currently growing a small herb garden
+🎵 I code better with lo-fi music
+🍕 Pizza is my debugging fuel
+🌙 Night owl developer (my best code happens after 10 PM!)
+🎭 I believe every website should tell a story
+```
 
 </div>
 
 ---
 
 <div align="center">
-  
-### Show some ❤️ by starring some repositories!
 
-![Profile Views](https://komarev.com/ghpvc/?username=[YOUR_USERNAME]&color=brightgreen&style=for-the-badge)
-![Followers](https://img.shields.io/github/followers/[YOUR_USERNAME]?style=for-the-badge&color=blue)
+### 🌈 *"Building the web, one commit at a time"* 
+
+**✨ Made with lots of ❤️, ☕, and countless hours of coding by Sithmi Iyara ✨**
+
+![Wave](https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg)
 
 </div>
 
 ---
 
 <div align="center">
-  <i>⭐️ From [Your Name](https://github.com/[YOUR_USERNAME])</i>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=FF6EC7&height=100&section=footer"/>
 </div>
