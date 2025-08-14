@@ -406,6 +406,79 @@
 
         /* Colorful Project Link Icons */
         .project-link .fa-github { color: #24292e; }
+        .project-link .fa-book-open { color: #4285f4; }
+
+        .readme-link {
+            background: linear-gradient(45deg, rgba(66, 133, 244, 0.2), rgba(123, 104, 238, 0.2));
+            border-color: rgba(66, 133, 244, 0.3);
+            color: #4285f4;
+        }
+
+        .readme-link:hover {
+            background: linear-gradient(45deg, rgba(66, 133, 244, 0.4), rgba(123, 104, 238, 0.4));
+            box-shadow: 0 5px 15px rgba(66, 133, 244, 0.3);
+        }
+
+        /* Main README Button at Bottom */
+        .main-readme-section {
+            margin-top: 3rem;
+            text-align: center;
+        }
+
+        .main-readme-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 15px;
+            padding: 1.5rem 3rem;
+            background: linear-gradient(45deg, #24292e, #6e5494, #24292e);
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            transition: all 0.4s ease;
+            border: 2px solid rgba(110, 84, 148, 0.3);
+            box-shadow: 0 8px 25px rgba(36, 41, 46, 0.3);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .main-readme-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .main-readme-btn:hover::before {
+            left: 100%;
+        }
+
+        .main-readme-btn:hover {
+            transform: translateY(-5px) scale(1.05);
+            box-shadow: 0 15px 35px rgba(110, 84, 148, 0.4);
+            border-color: #6e5494;
+            background: linear-gradient(45deg, #6e5494, #24292e, #6e5494);
+        }
+
+        .main-readme-btn i:first-child {
+            color: #00d4ff;
+            animation: bounce 2s infinite;
+        }
+
+        .main-readme-btn i:last-child {
+            color: #ffffff;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateX(0); }
+            40% { transform: translateX(-5px); }
+            60% { transform: translateX(-3px); }
+        }
 
         .contact {
             text-align: center;
@@ -723,6 +796,9 @@
                             <a href="https://github.com/Iyaraaaaa/Medicare" class="project-link" target="_blank">
                                 <i class="fab fa-github"></i> Repository
                             </a>
+                            <a href="https://github.com/Iyaraaaaa/Medicare#readme" class="project-link readme-link" target="_blank">
+                                <i class="fas fa-book-open"></i> README
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -737,6 +813,9 @@
                         <div class="project-links">
                             <a href="https://github.com/Iyaraaaaa/Solid_Driving_School" class="project-link" target="_blank">
                                 <i class="fab fa-github"></i> Repository
+                            </a>
+                            <a href="https://github.com/Iyaraaaaa/Solid_Driving_School#readme" class="project-link readme-link" target="_blank">
+                                <i class="fas fa-book-open"></i> README
                             </a>
                         </div>
                     </div>
@@ -753,12 +832,15 @@
                             <a href="https://github.com/Iyaraaaaa/Health-App" class="project-link" target="_blank">
                                 <i class="fab fa-github"></i> Repository
                             </a>
+                            <a href="https://github.com/Iyaraaaaa/Health-App#readme" class="project-link readme-link" target="_blank">
+                                <i class="fas fa-book-open"></i> README
+                            </a>
                         </div>
                     </div>
                 </div>
 
                 <div class="project-card">
-                    <img src="https://github.com/Iyaraaaaa/ToDo-App/raw/main/todo.png" alt="ToDo App" class="project-image" onerror="this.style.display='none'">
+                    <img src="https://github.com/Iyaraaaaa/ToDo-App/raw/main/screenshot.png" alt="ToDo App" class="project-image" onerror="this.src='https://github.com/Iyaraaaaa/ToDo-App/raw/main/app-screenshot.png'; this.onerror=function(){this.src='https://github.com/Iyaraaaaa/ToDo-App/raw/main/demo.png'; this.onerror=function(){this.src='https://github.com/Iyaraaaaa/ToDo-App/raw/main/preview.png'; this.onerror=function(){this.style.display='none';}}}">
                     <div class="project-content">
                         <h3><i class="fas fa-mobile-alt"></i> ToDo App</h3>
                         <p><strong>Mobile task management application</strong></p>
@@ -767,6 +849,9 @@
                         <div class="project-links">
                             <a href="https://github.com/Iyaraaaaa/ToDo-App" class="project-link" target="_blank">
                                 <i class="fab fa-github"></i> Repository
+                            </a>
+                            <a href="https://github.com/Iyaraaaaa/ToDo-App#readme" class="project-link readme-link" target="_blank">
+                                <i class="fas fa-book-open"></i> README
                             </a>
                         </div>
                     </div>
@@ -814,6 +899,15 @@
             </div>
             <br>
             <p><em>"First, solve the problem. Then, write the code." – John Johnson</em></p>
+            <br>
+            <!-- Return to Main README Button -->
+            <div class="main-readme-section">
+                <a href="https://github.com/Iyaraaaaa/Iyaraaaaa#readme" class="main-readme-btn" target="_blank">
+                    <i class="fas fa-arrow-left"></i>
+                    <span>Return to Main README</span>
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
         </section>
     </div>
 
