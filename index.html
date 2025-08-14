@@ -1,0 +1,1109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>✨ Sithmi Iyara - Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            overflow-x: hidden;
+            background: linear-gradient(135deg, #0c0c0c 0%, #1a1a2e 50%, #16213e 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #ffffff;
+        }
+
+        /* Enhanced Toolbar with Colorful Icons */
+        .toolbar {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 100;
+            display: flex;
+            gap: 15px;
+            background: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(20px);
+            padding: 15px;
+            border-radius: 50px;
+            border: 1px solid rgba(0, 212, 255, 0.3);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+        }
+
+        .toolbar-icon {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(45deg, rgba(0, 212, 255, 0.2), rgba(123, 104, 238, 0.2));
+            border: 1px solid rgba(0, 212, 255, 0.4);
+            border-radius: 50%;
+            font-size: 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Colorful Icon Styles */
+        .toolbar-icon.github {
+            background: linear-gradient(45deg, #333, #24292e);
+            border-color: #6e5494;
+            color: #ffffff;
+        }
+
+        .toolbar-icon.linkedin {
+            background: linear-gradient(45deg, #0077b5, #0e76a8);
+            border-color: #0077b5;
+            color: #ffffff;
+        }
+
+        .toolbar-icon.youtube {
+            background: linear-gradient(45deg, #ff0000, #cc0000);
+            border-color: #ff0000;
+            color: #ffffff;
+        }
+
+        .toolbar-icon.email {
+            background: linear-gradient(45deg, #ea4335, #34a853);
+            border-color: #ea4335;
+            color: #ffffff;
+        }
+
+        .toolbar-icon.download {
+            background: linear-gradient(45deg, #ff6b6b, #4285f4);
+            border-color: #ff6b6b;
+            color: #ffffff;
+        }
+
+        .toolbar-icon::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.3), transparent);
+            transition: all 0.3s ease;
+            transform: translate(-50%, -50%);
+            border-radius: 50%;
+        }
+
+        .toolbar-icon:hover::before {
+            width: 100px;
+            height: 100px;
+        }
+
+        .toolbar-icon:hover {
+            transform: translateY(-5px) scale(1.1);
+            box-shadow: 0 15px 30px rgba(0, 212, 255, 0.4);
+        }
+
+        .toolbar-tooltip {
+            position: absolute;
+            bottom: -40px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0, 0, 0, 0.9);
+            color: #ffffff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 12px;
+            opacity: 0;
+            transition: opacity 0.3s;
+            pointer-events: none;
+            white-space: nowrap;
+        }
+
+        .toolbar-icon:hover .toolbar-tooltip {
+            opacity: 1;
+        }
+
+        #canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: 1;
+        }
+
+        .content {
+            position: relative;
+            z-index: 10;
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .hero {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            background: linear-gradient(45deg, #00d4ff, #7b68ee, #ff6ec7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-shadow: 0 0 30px rgba(0, 212, 255, 0.3);
+            animation: glow 2s ease-in-out infinite alternate;
+        }
+
+        .hero .subtitle {
+            font-size: 1.5rem;
+            color: #a0a0a0;
+            margin-bottom: 2rem;
+        }
+
+        .hero .typing {
+            font-size: 1.2rem;
+            color: #00d4ff;
+            font-family: 'Courier New', monospace;
+        }
+
+        @keyframes glow {
+            from { text-shadow: 0 0 30px rgba(0, 212, 255, 0.3); }
+            to { text-shadow: 0 0 40px rgba(0, 212, 255, 0.6), 0 0 60px rgba(123, 104, 238, 0.4); }
+        }
+
+        .section {
+            margin: 4rem 0;
+            padding: 3rem 2rem;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(20px);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+
+        .section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            text-align: center;
+            background: linear-gradient(45deg, #00d4ff, #7b68ee);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .about {
+            display: grid;
+            grid-template-columns: 1fr 300px;
+            gap: 3rem;
+            align-items: center;
+        }
+
+        .about-text {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: #e0e0e0;
+        }
+
+        .about-image {
+            text-align: center;
+            position: relative;
+        }
+
+        .about-image::before {
+            content: '';
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            right: -10px;
+            bottom: -10px;
+            background: linear-gradient(45deg, #00d4ff, #7b68ee, #ff6ec7);
+            border-radius: 25px;
+            z-index: -1;
+            animation: rotate 4s linear infinite;
+        }
+
+        @keyframes rotate {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .about-image img {
+            width: 100%;
+            border-radius: 15px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .skill-category {
+            background: rgba(0, 212, 255, 0.1);
+            padding: 2rem;
+            border-radius: 15px;
+            border: 1px solid rgba(0, 212, 255, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .skill-category:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 212, 255, 0.2);
+        }
+
+        .skill-category h3 {
+            color: #00d4ff;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .skill-tag {
+            background: rgba(123, 104, 238, 0.3);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            border: 1px solid rgba(123, 104, 238, 0.4);
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* Colorful Skill Tag Icons - Removed Orange Colors */
+        .skill-tag .fa-cuttlefish { color: #6cc644; }
+        .skill-tag .fa-python { color: #3776ab; }
+        .skill-tag .fa-java { color: #007396; }
+        .skill-tag .fa-js-square { color: #f7df1e; }
+        .skill-tag .fa-react { color: #61dafb; }
+        .skill-tag .fa-html5 { color: #e34f26; }
+        .skill-tag .fa-css3-alt { color: #1572b6; }
+        .skill-tag .fa-php { color: #777bb4; }
+        .skill-tag .fa-wind { color: #38bdf8; }
+        .skill-tag .fa-node-js { color: #339933; }
+        .skill-tag .fa-server { color: #68217a; }
+        .skill-tag .fa-mobile-alt { color: #5352ed; }
+        .skill-tag .fa-code { color: #42a5f5; }
+        .skill-tag .fa-leaf { color: #47a248; }
+        .skill-tag .fa-database { color: #00758f; }
+        .skill-tag .fa-google { color: #4285f4; }
+        .skill-tag .fa-git-alt { color: #f1502f; }
+        .skill-tag .fa-github { color: #24292e; }
+        .skill-tag .fa-lightbulb { color: #007acc; }
+        .skill-tag .fa-palette { color: #ff6ec7; }
+        .skill-tag .fa-paper-plane { color: #ff6c37; }
+        .skill-tag .fa-cube { color: #ff6b6b; }
+        .skill-tag .fa-magic { color: #ffd700; }
+
+        .skill-tag:hover {
+            background: rgba(123, 104, 238, 0.5);
+            transform: translateY(-2px);
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .project-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .project-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 15px 15px 0 0;
+        }
+
+        .project-content {
+            padding: 2rem;
+        }
+
+        .project-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(45deg, #00d4ff, #7b68ee, #ff6ec7);
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 212, 255, 0.2);
+        }
+
+        .project-card h3 {
+            color: #00d4ff;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        /* Colorful Project Icons */
+        .project-card h3 .fa-hospital { color: #ff4757; }
+        .project-card h3 .fa-car { color: #ffa502; }
+        .project-card h3 .fa-heartbeat { color: #ff3838; }
+        .project-card h3 .fa-mobile-alt { color: #5352ed; }
+
+        .project-links {
+            margin-top: 1rem;
+            display: flex;
+            gap: 10px;
+        }
+
+        .project-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            padding: 0.5rem 1rem;
+            background: linear-gradient(45deg, rgba(0, 212, 255, 0.2), rgba(123, 104, 238, 0.2));
+            color: #00d4ff;
+            text-decoration: none;
+            border-radius: 20px;
+            border: 1px solid rgba(0, 212, 255, 0.3);
+            transition: all 0.3s ease;
+            font-size: 0.9rem;
+        }
+
+        .project-link:hover {
+            background: linear-gradient(45deg, rgba(0, 212, 255, 0.4), rgba(123, 104, 238, 0.4));
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 212, 255, 0.3);
+        }
+
+        /* Colorful Project Link Icons */
+        .project-link .fa-github { color: #24292e; }
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            margin: 2rem 0;
+            flex-wrap: wrap;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: rgba(0, 212, 255, 0.1);
+            padding: 1rem 1.5rem;
+            border-radius: 30px;
+            border: 1px solid rgba(0, 212, 255, 0.2);
+        }
+
+        .contact-item i {
+            font-size: 1.2rem;
+        }
+
+        /* Colorful Contact Icons */
+        .contact-item .fa-envelope { color: #ea4335; }
+        .contact-item .fa-phone { color: #4285f4; }
+
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .contact-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 1rem 2rem;
+            background: linear-gradient(45deg, #00d4ff, #7b68ee);
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            transition: all 0.3s ease;
+            font-weight: bold;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Individual Contact Link Colors */
+        .contact-link.linkedin {
+            background: linear-gradient(45deg, #0077b5, #0e76a8);
+        }
+
+        .contact-link.youtube {
+            background: linear-gradient(45deg, #ff0000, #cc0000);
+        }
+
+        .contact-link.download {
+            background: linear-gradient(45deg, #ff6b6b, #4285f4);
+        }
+
+        .contact-link.email {
+            background: linear-gradient(45deg, #ea4335, #4285f4);
+        }
+
+        .contact-link:hover {
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 212, 255, 0.3);
+        }
+
+        /* Colorful Contact Link Icons */
+        .contact-link .fa-linkedin { color: #ffffff; }
+        .contact-link .fa-youtube { color: #ffffff; }
+        .contact-link .fa-download { color: #ffffff; }
+        .contact-link .fa-envelope { color: #ffffff; }
+
+        .floating-elements {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: 2;
+            pointer-events: none;
+        }
+
+        .floating-element {
+            position: absolute;
+            background: linear-gradient(45deg, rgba(0, 212, 255, 0.1), rgba(123, 104, 238, 0.1));
+            border-radius: 50%;
+            animation: float 6s ease-in-out infinite;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .floating-element:nth-child(1) {
+            width: 80px;
+            height: 80px;
+            top: 20%;
+            left: 10%;
+            animation-delay: 0s;
+        }
+
+        .floating-element:nth-child(2) {
+            width: 60px;
+            height: 60px;
+            top: 60%;
+            right: 15%;
+            animation-delay: 2s;
+        }
+
+        .floating-element:nth-child(3) {
+            width: 100px;
+            height: 100px;
+            bottom: 20%;
+            left: 20%;
+            animation-delay: 4s;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(180deg); }
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.5rem; }
+            .about { grid-template-columns: 1fr; text-align: center; }
+            .content { padding: 1rem; }
+            .section { margin: 2rem 0; padding: 2rem 1rem; }
+            .contact-links { flex-direction: column; align-items: center; }
+            .contact-info { flex-direction: column; align-items: center; gap: 1rem; }
+            .toolbar { 
+                position: fixed;
+                bottom: 20px;
+                top: auto;
+                right: 50%;
+                transform: translateX(50%);
+                flex-direction: row;
+            }
+            .projects { grid-template-columns: 1fr; }
+        }
+
+        /* Loading Animation */
+        .loading-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: linear-gradient(135deg, #0c0c0c 0%, #1a1a2e 50%, #16213e 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            transition: opacity 1s ease-out;
+        }
+
+        .loading-spinner {
+            width: 80px;
+            height: 80px;
+            border: 3px solid rgba(0, 212, 255, 0.3);
+            border-top: 3px solid #00d4ff;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <canvas id="canvas"></canvas>
+    
+    <div class="floating-elements">
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+    </div>
+
+    <!-- Enhanced Toolbar with Colorful Icons -->
+    <div class="toolbar">
+        <a href="https://github.com/Iyaraaaaa" class="toolbar-icon github" target="_blank">
+            <i class="fab fa-github"></i>
+            <span class="toolbar-tooltip">GitHub</span>
+        </a>
+        <a href="https://www.linkedin.com/in/sithmi-iyara-0b5837265/" class="toolbar-icon linkedin" target="_blank">
+            <i class="fab fa-linkedin"></i>
+            <span class="toolbar-tooltip">LinkedIn</span>
+        </a>
+        <a href="https://youtube.com/@iyara6822" class="toolbar-icon youtube" target="_blank">
+            <i class="fab fa-youtube"></i>
+            <span class="toolbar-tooltip">YouTube</span>
+        </a>
+        <a href="mailto:sithmiyara2001@gmail.com" class="toolbar-icon email">
+            <i class="fas fa-envelope"></i>
+            <span class="toolbar-tooltip">Email</span>
+        </a>
+        <a href="https://github.com/Iyaraaaaa/CV/raw/main/Iyara_Mobile%20App%20Developer.pdf" class="toolbar-icon download" target="_blank">
+            <i class="fas fa-download"></i>
+            <span class="toolbar-tooltip">Download CV</span>
+        </a>
+    </div>
+
+    <div class="content">
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>🌟 Sithmi Iyara 🌟</h1>
+            <div class="subtitle">Full Stack Developer | Creative Coder | Pixel-Perfect Designer</div>
+            <div class="typing">Hi I'm Sithmi Iyara from Sri Lanka! 🇱🇰</div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section">
+            <h2>🔥 About Me</h2>
+            <div class="about">
+                <div class="about-text">
+                    <p>I'm a passionate <strong>Full Stack Developer</strong> from Sri Lanka 🇱🇰 who loves transforming <strong>creative ideas into functional code</strong>. Whether it's building sleek interfaces, crafting robust APIs, or diving into new tools, I do it with heart, hustle, and curiosity.</p>
+                    <br>
+                    <p>💡 <em>"I don't just code. I build experiences."</em></p>
+                    <br>
+                    <p>🎯 <strong>Currently exploring:</strong> 3D web experiences, interactive animations, and immersive user interfaces</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://github.com/Iyaraaaaa/Iyaraaaaa/raw/main/iyara.jpg" alt="Sithmi Iyara" />
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section">
+            <h2>🛠️ My Tech Toolbox</h2>
+            <div class="skills">
+                <div class="skill-category">
+                    <h3>💻 Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fab fa-cuttlefish"></i> C++</span>
+                        <span class="skill-tag"><i class="fab fa-python"></i> Python</span>
+                        <span class="skill-tag"><i class="fab fa-java"></i> Java</span>
+                        <span class="skill-tag"><i class="fab fa-js-square"></i> JavaScript</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>🌐 Web Development</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fab fa-html5"></i> HTML</span>
+                        <span class="skill-tag"><i class="fab fa-css3-alt"></i> CSS</span>
+                        <span class="skill-tag"><i class="fab fa-php"></i> PHP</span>
+                        <span class="skill-tag"><i class="fab fa-react"></i> React</span>
+                        <span class="skill-tag"><i class="fab fa-node-js"></i> Node.js</span>
+                        <span class="skill-tag"><i class="fas fa-server"></i> Express.js</span>
+                        <span class="skill-tag"><i class="fas fa-leaf"></i> MongoDB</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>📱 Mobile & Desktop Development</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fas fa-mobile-alt"></i> Flutter</span>
+                        <span class="skill-tag"><i class="fas fa-code"></i> Dart</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>🗄️ Database Management</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fas fa-database"></i> MySQL</span>
+                        <span class="skill-tag"><i class="fab fa-google"></i> Firebase</span>
+                        <span class="skill-tag"><i class="fas fa-server"></i> SQL Server</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>🛠️ Tools & Platforms</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fab fa-git-alt"></i> Git</span>
+                        <span class="skill-tag"><i class="fab fa-github"></i> GitHub</span>
+                        <span class="skill-tag"><i class="fas fa-code"></i> VS Code</span>
+                        <span class="skill-tag"><i class="fas fa-lightbulb"></i> IntelliJ IDEA</span>
+                        <span class="skill-tag"><i class="fas fa-palette"></i> Figma</span>
+                        <span class="skill-tag"><i class="fas fa-paper-plane"></i> Postman</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>🎮 3D & Creative</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fas fa-cube"></i> Three.js</span>
+                        <span class="skill-tag"><i class="fas fa-palette"></i> WebGL</span>
+                        <span class="skill-tag"><i class="fas fa-magic"></i> CSS Animations</span>
+                        <span class="skill-tag"><i class="fas fa-wind"></i> Tailwind</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section">
+            <h2>🧩 Featured Projects</h2>
+            <div class="projects">
+                <div class="project-card">
+                    <img src="https://github.com/Iyaraaaaa/Medicare/raw/main/medicare.jpg" alt="Medicare App" class="project-image">
+                    <div class="project-content">
+                        <h3><i class="fas fa-hospital"></i> Medicare</h3>
+                        <p><strong>Health management app for doctors & patients</strong></p>
+                        <p><strong>Tech Used:</strong> MERN Stack, Firebase, Tailwind</p>
+                        <p>Patient management, appointment scheduling, medical records with clean UI/UX</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Iyaraaaaa/Medicare" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> Repository
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="https://github.com/Iyaraaaaa/Solid_Driving_School/raw/main/driving.png" alt="Solid Driving School" class="project-image">
+                    <div class="project-content">
+                        <h3><i class="fas fa-car"></i> Solid Driving School</h3>
+                        <p><strong>Booking system for driving schools</strong></p>
+                        <p><strong>Tech Used:</strong> React, MongoDB, Bootstrap</p>
+                        <p>Online booking, instructor management, progress tracking</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Iyaraaaaa/Solid_Driving_School" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> Repository
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="https://github.com/Iyaraaaaa/Health-App/raw/main/health.jpg" alt="Health App" class="project-image">
+                    <div class="project-content">
+                        <h3><i class="fas fa-heartbeat"></i> Health App</h3>
+                        <p><strong>Comprehensive health monitoring platform</strong></p>
+                        <p><strong>Tech Used:</strong> React, Express, MongoDB</p>
+                        <p>Health tracking, appointment booking, medical records management</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Iyaraaaaa/Health-App" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> Repository
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="https://github.com/Iyaraaaaa/ToDo-App/raw/main/todo.png" alt="ToDo App" class="project-image" onerror="this.style.display='none'">
+                    <div class="project-content">
+                        <h3><i class="fas fa-mobile-alt"></i> ToDo App</h3>
+                        <p><strong>Mobile task management application</strong></p>
+                        <p><strong>Tech Used:</strong> React Native, JavaScript, SQLite</p>
+                        <p>Task creation, priority management, offline support, beautiful UI</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Iyaraaaaa/ToDo-App" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> Repository
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Goals Section -->
+        <section class="section">
+            <h2>🎯 2025 Goals</h2>
+            <div class="about-text">
+                <p>✈️ <strong>International Opportunities:</strong> Land a remote job or internship in an international tech company</p>
+                <p>🧠 <strong>Senior Developer:</strong> Become a senior in React and system design</p>
+                <p>🌐 <strong>Personal Brand:</strong> Launch my personal portfolio and tech blog</p>
+                <p>💖 <strong>Community Impact:</strong> Help more girls in Sri Lanka get into tech</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact">
+            <h2>🌐 Connect With Me</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>sithmiyara2001@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+94 784 770 935</span>
+                </div>
+            </div>
+            <div class="contact-links">
+                <a href="https://www.linkedin.com/in/sithmi-iyara-0b5837265/" class="contact-link linkedin" target="_blank">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://youtube.com/@iyara6822" class="contact-link youtube" target="_blank">
+                    <i class="fab fa-youtube"></i> YouTube
+                </a>
+                <a href="https://github.com/Iyaraaaaa/CV/raw/main/Iyara_Mobile%20App%20Developer.pdf" class="contact-link download" target="_blank">
+                    <i class="fas fa-download"></i> Download CV
+                </a>
+                <a href="mailto:sithmiyara2001@gmail.com" class="contact-link email">
+                    <i class="fas fa-envelope"></i> Email Me
+                </a>
+            </div>
+            <br>
+            <p><em>"First, solve the problem. Then, write the code." – John Johnson</em></p>
+        </section>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script>
+        // Loading screen
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                document.getElementById('loadingScreen').style.opacity = '0';
+                setTimeout(() => {
+                    document.getElementById('loadingScreen').style.display = 'none';
+                }, 1000);
+            }, 1500);
+        });
+
+        // Three.js scene setup
+        const scene = new THREE.Scene();
+        const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+        const renderer = new THREE.WebGLRenderer({ 
+            canvas: document.getElementById('canvas'),
+            alpha: true,
+            antialias: true
+        });
+
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        renderer.setClearColor(0x000000, 0);
+
+        // Create particle system
+        const particlesGeometry = new THREE.BufferGeometry();
+        const particlesCount = 800;
+        const posArray = new Float32Array(particlesCount * 3);
+        const colorArray = new Float32Array(particlesCount * 3);
+
+        for(let i = 0; i < particlesCount * 3; i += 3) {
+            posArray[i] = (Math.random() - 0.5) * 20;
+            posArray[i + 1] = (Math.random() - 0.5) * 20;
+            posArray[i + 2] = (Math.random() - 0.5) * 20;
+
+            const colors = [
+                [0, 0.8, 1],      // Cyan
+                [0.3, 0.4, 0.9],  // Blue
+                [0.5, 0.3, 0.8],  // Purple
+                [0, 0.9, 0.7],    // Teal
+                [0.2, 0.6, 1]     // Light Blue
+            ];
+            const color = colors[Math.floor(Math.random() * colors.length)];
+            colorArray[i] = color[0];
+            colorArray[i + 1] = color[1];
+            colorArray[i + 2] = color[2];
+        }
+
+        particlesGeometry.setAttribute('position', new THREE.BufferAttribute(posArray, 3));
+        particlesGeometry.setAttribute('color', new THREE.BufferAttribute(colorArray, 3));
+
+        const particlesMaterial = new THREE.PointsMaterial({
+            size: 0.02,
+            vertexColors: true,
+            transparent: true,
+            opacity: 0.8,
+            blending: THREE.AdditiveBlending
+        });
+
+        const particlesMesh = new THREE.Points(particlesGeometry, particlesMaterial);
+        scene.add(particlesMesh);
+
+        // Create geometric shapes
+        const shapes = [];
+        const geometries = [
+            new THREE.SphereGeometry(0.3, 16, 16),
+            new THREE.BoxGeometry(0.4, 0.4, 0.4),
+            new THREE.OctahedronGeometry(0.4),
+            new THREE.TetrahedronGeometry(0.5)
+        ];
+
+        for(let i = 0; i < 12; i++) {
+            const geometry = geometries[Math.floor(Math.random() * geometries.length)];
+            const material = new THREE.MeshPhongMaterial({
+                color: new THREE.Color().setHSL(0.5 + Math.random() * 0.3, 0.7, 0.6),
+                transparent: true,
+                opacity: 0.3,
+                wireframe: Math.random() > 0.5
+            });
+
+            const shape = new THREE.Mesh(geometry, material);
+            shape.position.set(
+                (Math.random() - 0.5) * 15,
+                (Math.random() - 0.5) * 15,
+                (Math.random() - 0.5) * 15
+            );
+            shape.rotation.set(
+                Math.random() * Math.PI,
+                Math.random() * Math.PI,
+                Math.random() * Math.PI
+            );
+
+            shapes.push(shape);
+            scene.add(shape);
+        }
+
+        // Lighting
+        const ambientLight = new THREE.AmbientLight(0x404040, 0.4);
+        scene.add(ambientLight);
+
+        const pointLight = new THREE.PointLight(0x00d4ff, 1, 100);
+        pointLight.position.set(10, 10, 10);
+        scene.add(pointLight);
+
+        const pointLight2 = new THREE.PointLight(0x7b68ee, 0.8, 100);
+        pointLight2.position.set(-10, -10, 5);
+        scene.add(pointLight2);
+
+        camera.position.z = 8;
+
+        // Mouse interaction
+        const mouse = { x: 0, y: 0 };
+        document.addEventListener('mousemove', (event) => {
+            mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+            mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
+        });
+
+        // Animation loop
+        function animate() {
+            requestAnimationFrame(animate);
+
+            // Rotate particle system
+            particlesMesh.rotation.x += 0.001;
+            particlesMesh.rotation.y += 0.002;
+
+            // Animate shapes
+            shapes.forEach((shape, index) => {
+                shape.rotation.x += 0.01 + index * 0.001;
+                shape.rotation.y += 0.01 + index * 0.002;
+                shape.position.y += Math.sin(Date.now() * 0.001 + index) * 0.001;
+            });
+
+            // Mouse interaction effects
+            const targetX = mouse.x * 2;
+            const targetY = mouse.y * 2;
+            
+            camera.position.x += (targetX - camera.position.x) * 0.02;
+            camera.position.y += (targetY - camera.position.y) * 0.02;
+            camera.lookAt(scene.position);
+
+            // Update particle positions based on mouse
+            const positions = particlesMesh.geometry.attributes.position.array;
+            for(let i = 0; i < positions.length; i += 3) {
+                positions[i] += (mouse.x - positions[i]) * 0.0001;
+                positions[i + 1] += (mouse.y - positions[i + 1]) * 0.0001;
+            }
+            particlesMesh.geometry.attributes.position.needsUpdate = true;
+
+            renderer.render(scene, camera);
+        }
+
+        // Handle window resize
+        window.addEventListener('resize', () => {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+        });
+
+        animate();
+
+        // Smooth scrolling for navigation
+        document.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const rate = scrolled * -0.5;
+            
+            if (particlesMesh) {
+                particlesMesh.rotation.z = rate * 0.001;
+            }
+        });
+
+        // Enhanced scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all sections for animation
+        document.querySelectorAll('.section').forEach(section => {
+            section.style.opacity = '0';
+            section.style.transform = 'translateY(30px)';
+            section.style.transition = 'all 0.8s ease-out';
+            observer.observe(section);
+        });
+
+        // Typing animation
+        const typingElement = document.querySelector('.typing');
+        const typingText = 'Hi I\'m Sithmi Iyara from Sri Lanka! 🇱🇰';
+        let i = 0;
+
+        function typeWriter() {
+            if (i < typingText.length) {
+                typingElement.innerHTML = typingText.substring(0, i + 1) + '<span style="animation: blink 1s infinite;">|</span>';
+                i++;
+                setTimeout(typeWriter, 100);
+            } else {
+                setTimeout(() => {
+                    typingElement.innerHTML = typingText;
+                }, 1000);
+            }
+        }
+
+        // Start typing animation after page load
+        setTimeout(typeWriter, 2000);
+
+        // Add CSS for blinking cursor
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes blink {
+                0%, 50% { opacity: 1; }
+                51%, 100% { opacity: 0; }
+            }
+        `;
+        document.head.appendChild(style);
+
+        // Parallax effect for floating elements
+        window.addEventListener('scroll', () => {
+            const scrollTop = window.pageYOffset;
+            const floatingElements = document.querySelectorAll('.floating-element');
+            
+            floatingElements.forEach((element, index) => {
+                const speed = 0.5 + (index * 0.2);
+                element.style.transform = `translateY(${scrollTop * speed}px)`;
+            });
+        });
+
+        // Add sparkle effect on hover for project cards
+        document.querySelectorAll('.project-card').forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                createSparkles(this);
+            });
+        });
+
+        function createSparkles(element) {
+            for (let i = 0; i < 6; i++) {
+                const sparkle = document.createElement('div');
+                sparkle.style.position = 'absolute';
+                sparkle.style.width = '4px';
+                sparkle.style.height = '4px';
+                sparkle.style.background = '#00d4ff';
+                sparkle.style.borderRadius = '50%';
+                sparkle.style.pointerEvents = 'none';
+                sparkle.style.zIndex = '1000';
+                
+                const rect = element.getBoundingClientRect();
+                sparkle.style.left = Math.random() * rect.width + 'px';
+                sparkle.style.top = Math.random() * rect.height + 'px';
+                
+                sparkle.style.animation = 'sparkle 1s ease-out forwards';
+                
+                element.appendChild(sparkle);
+                
+                setTimeout(() => {
+                    if (sparkle.parentNode) {
+                        sparkle.parentNode.removeChild(sparkle);
+                    }
+                }, 1000);
+            }
+        }
+
+        // Add sparkle animation
+        const sparkleStyle = document.createElement('style');
+        sparkleStyle.textContent = `
+            @keyframes sparkle {
+                0% {
+                    opacity: 1;
+                    transform: scale(0);
+                }
+                50% {
+                    opacity: 1;
+                    transform: scale(1);
+                }
+                100% {
+                    opacity: 0;
+                    transform: scale(0) translateY(-10px);
+                }
+            }
+        `;
+        document.head.appendChild(sparkleStyle);
+    </script>
+</body>
+</html>
