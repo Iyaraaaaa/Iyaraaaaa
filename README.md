@@ -10,15 +10,7 @@
  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=FF6EC7&center=true&vCenter=true&width=500&lines=Hi+I'm+Sithmi+Iyara+from+Sri+Lanka!;Passionate+about+Code%2C+Creativity.;Turning+Ideas+into+Reality+%F0%9F%94%A5" alt="Typing Intro" />
 </p>
 
-<p align="center"> 
- <img src="https://komarev.com/ghpvc/?username=Iyaraaaaa&label=Profile%20views&color=0e75b6&style=flat" alt="Iyaraaaaa" /> 
-</p>
 
-<p align="center">
- <a href="https://github.com/ryo-ma/github-profile-trophy">
-   <img src="https://github-profile-trophy.vercel.app/?username=Iyaraaaaa&theme=juicyfresh" alt="Iyaraaaaa" />
- </a>
-</p>
 
 <br>
 
